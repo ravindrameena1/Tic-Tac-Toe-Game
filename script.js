@@ -25,10 +25,12 @@ boxes.forEach((box) => {
         } else {
             box.innerText = "X";
             box.style.color = "blue";
+
             turno = true;
             
         }
         box.disabled = true;
+        turn0 = !turno;
 
         checkWinner();
     })
