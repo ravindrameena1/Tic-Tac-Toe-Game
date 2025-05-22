@@ -91,3 +91,38 @@ h1 {
 .hide {
     display: none;
 }
+@media screen and (min-width:320px ) and (max-width:480px) {
+    body{
+        height: 100px;
+        width: 100vw;
+        overflow: hidden;
+        zoom: hidden;
+    
+    }
+   .tic,h1{
+        margin-left:11px;
+        margin-top: 2px;
+    }
+    .newbtn{
+        margin-top: 26px;
+        margin-left: 18px;
+    }
+    .game{
+        margin-left: 85px;
+    }
+    #resetbtn{
+        margin-bottom: 625px;
+        margin-left: 24px;
+    }
+    .msg{
+        display: flex;
+    margin: 0;
+    margin-left: 75px;
+    margin-top: 13px;
+    width: 250px;
+    }
+    .hide{
+        display: none;
+       
+    }
+}
